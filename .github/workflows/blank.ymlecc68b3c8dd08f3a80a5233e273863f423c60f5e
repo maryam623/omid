@@ -1,0 +1,17 @@
+https://github.com/maryam623/omidname: CI
+mohammad.reza.rafiaee
+on: [push]
+ecc68b3c8dd08f3a80a5233e273863f423c60f5e
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
